@@ -31,6 +31,24 @@ and scant3r will help you  write your own python script faster , you don't need 
 | **reflect** | find reflected parameters 
 | **secrets** | find interesting variables content (API Keys , Debug Mode , etc ..) |
 
+### OPTIONS:
+Options:
+  -h | show help menu and exit
+  -H | add custom header (ex:-H='Cookies: test=1')
+  -s | number of seconds to hold between each HTTP(S) requests.
+  -a | Start Scant3r API
+  -y | Methods Allowed on your target
+  -m | run scant3r module (ex: -m=example)
+  -n | Silent Mode
+  -l | add targets list
+  -g | Generate Famouse Parameters if your url dosen't have parameters
+  -p | Forward all requests to proxy
+  -b | add your xsshunter host (or any xss host)
+  -d | debugging mode (show requests/responses)
+  -x | add your host (burpcall,etc..)
+  -R | use random user agent
+  -w | Number of workers (default: 50)
+  -t | set connection timeout (default: 10)
 
 
 ### Linux ![Linux](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)
